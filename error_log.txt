@@ -1,0 +1,1110 @@
+--- 抓取時間: 2026-01-20 12:05:27 ---
+--------- beginning of kernel
+01-20 11:37:12.856   551   551 E i2c-4   : Failed to register i2c client  at 0x34 (-16)
+01-20 11:37:12.857   551   551 E i2c-1   : Failed to register i2c client  at 0x24 (-16)
+01-20 11:37:12.857   551   551 E i2c-4   : Failed to register i2c client  at 0x34 (-16)
+01-20 11:37:12.883     1     1 E init    : Control message: Could not find 'aidl/android.system.keystore2.IKeystoreService/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:12.891     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:13.064   510   510 E logd    : FrameworkListener: read() failed (Connection reset by peer)
+01-20 11:37:13.527     1     1 E libprocessgroup: Failed to write 1 to /sys/fs/cgroup/system/uid_0/pid_882/cgroup.kill: No such file or directory
+01-20 11:37:13.527     1     1 E libprocessgroup: Failed to open /sys/fs/cgroup/system/uid_0/pid_882/cgroup.procs: No such file or directory
+01-20 11:37:13.552     1     1 E libprocessgroup: Failed to write 1 to /sys/fs/cgroup/system/uid_1000/pid_555/cgroup.kill: No such file or directory
+01-20 11:37:13.552     1     1 E libprocessgroup: Failed to open /sys/fs/cgroup/system/uid_1000/pid_555/cgroup.procs: No such file or directory
+01-20 11:37:13.595   891   891 E         : WARNING: Unprivileged eBPF is enabled, data leaks possible via Spectre v2 BHB attacks!
+01-20 11:37:13.611     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.117     1     1 E init    : Could not start service 'vendor.drm-widevine-hal-rikers' as part of class 'hal': Cannot find '/apex/com.google.android.widevine/bin/hw/android.hardware.drm-service.widevine-rikers': No such file or directory
+01-20 11:37:14.126   931   931 E dhd_init_wlan_mem: WIFI MEM Allocated
+01-20 11:37:14.129     1     1 E init    : Control message: Could not find 'aidl/power.stats-vendor' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.149     1     1 E init    : Control message: Could not find 'aidl/android.hardware.thermal.IThermal/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.150   370   370 E init    : Unable to set property 'ro.boot.wificountrycode' from uid:0 gid:0 pid:371: Read-only property was already set
+01-20 11:37:14.158     1     1 E init    : Control message: Could not find 'aidl/vendor.google.wireless_charger.IWirelessCharger/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.192   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:14.192   998   998 E etm2dram: etm2dram_cancel_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:14.192   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:14.192   998   998 E etm2dram: etm2dram_cancel_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:14.192   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:14.192   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:14.335   931   931 E logbuffer_pcie1: [  100] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:14.490   931   931 E dhd_plat_pcie_register_event(): Registered Event PCIe event pdev 00000000789a0e39
+01-20 11:37:14.621     1     1 E init    : Control message: Could not find 'vendor.samsung_slsi.telephony.hardware.radioExternal@1.0::IOemSlsiRadioExternal/rilExternal' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:14.621     1     1 E init    : Could not start service 'abox' as part of class 'late_start': Cannot find '/vendor/bin/main_abox': No such file or directory
+01-20 11:37:14.729     1     1 E init    : Control message: Could not find 'vendor.samsung_slsi.telephony.hardware.radioExternal@1.0::IOemSlsiRadioExternal/rilExternal' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:14.730     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.746     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.758    93    93 E         : brcm gps spi spi5.0: @ RX length is still read to 0. Set 0
+01-20 11:37:14.770   370   370 E init    : Unable to set property 'telephony.ril.modem_bin_status' from uid:0 gid:0 pid:371: SELinux permission check failed
+01-20 11:37:14.815  1156  1156 E cpif    : pcie_clean_dislink: Link is disconnected!!!
+01-20 11:37:14.834     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.sensorservice.ISensorManager/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:14.945     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:14.946     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:14.951     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:14.951     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:15.069  1156  1156 E logbuffer_pcie0: [  105] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:15.107     1     1 E init    : Control message: Could not find 'aidl/android.hardware.thermal.IThermal/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:15.132  1156  1156 E cpif    : s5100_poweron_pcie: DBG: MSI sfr not set up, yet(s5100_pdev is NULL)
+01-20 11:37:15.135     0     0 E [    C0] cpif: shmem_enqueue_snapshot: PCIE: ERR! invalid intr 0x0
+01-20 11:37:15.136     0     0 E [    C0] cpif: shmem_enqueue_snapshot: PCIE: ERR! invalid intr 0x0
+01-20 11:37:15.240  1156  1156 E logbuffer_pcie0: [  108] cannot receive L23_READY DLLP packet(0x11)
+01-20 11:37:15.332  1156  1156 E logbuffer_pcie0: [  109] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:15.446    86    86 E alsa    : of_parse_one_dai: fail to parse codec -517 for HAPTIC_RX Playback
+01-20 11:37:15.446    86    86 E alsa    : aoc_snd_card_parse_of: fail to parse fai_link -517
+01-20 11:37:15.447     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:15.448    86    86 E alsa    : of_parse_one_dai: fail to parse codec -517 for HAPTIC_RX Playback
+01-20 11:37:15.448    86    86 E alsa    : aoc_snd_card_parse_of: fail to parse fai_link -517
+01-20 11:37:15.450    86    86 E alsa    : of_parse_one_dai: fail to parse codec -517 for HAPTIC_RX Playback
+01-20 11:37:15.450    86    86 E alsa    : aoc_snd_card_parse_of: fail to parse fai_link -517
+01-20 11:37:15.451    86    86 E alsa    : of_parse_one_dai: fail to parse codec -517 for HAPTIC_RX Playback
+01-20 11:37:15.451    86    86 E alsa    : aoc_snd_card_parse_of: fail to parse fai_link -517
+01-20 11:37:15.614     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.stats.IStats/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:15.789   280   280 E google_mitigation google,mitigation: setup Main PMIC meter done
+01-20 11:37:15.789   280   280 E google_mitigation google,mitigation: setup Sub PMIC meter done
+01-20 11:37:15.837     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.sensorservice.ISensorManager/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:15.948     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:15.952     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:16.108     1     1 E init    : Control message: Could not find 'aidl/android.hardware.thermal.IThermal/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:16.308   957   957 E         : not support hac amp
+01-20 11:37:16.365     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.sensorservice.ISensorManager/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:16.479     1     1 E init    : Control message: Could not find 'vendor.google.whitechapel.audio.audioext@4.0::IAudioExt/default' for ctl.interface_start from pid: 500 (/system/system_ext/bin/hwservicemanager)
+01-20 11:37:16.837     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.sensorservice.ISensorManager/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:16.952     1     1 E init    : Control message: Could not find 'aidl/activity' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:17.212     1     1 E init    : Control message: Could not find 'aidl/sensor_privacy' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:17.367     1     1 E init    : Control message: Could not find 'aidl/android.frameworks.sensorservice.ISensorManager/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:18.010   690   690 E cpif    : cmd_init_start_handler: PCIE: LINK_ATTR_SBD_IPC is NOT set
+01-20 11:37:18.013  1156  1156 E cpif    : mif_enable_irq: phone_active(#392) is already active <complete_normal_boot [cpif]>
+01-20 11:37:18.013  1156  1156 E cpif    : mif_enable_irq: cp2ap_wakeup(#391) is already active <complete_normal_boot [cpif]>
+01-20 11:37:18.015   370   370 E init    : Unable to set property 'telephony.ril.modem_bin_status' from uid:0 gid:0 pid:371: SELinux permission check failed
+01-20 11:37:18.195     1     1 E init    : Control message: Could not find 'aidl/android.hardware.biometrics.fingerprint.IFingerprint/default' for ctl.interface_start from pid: 499 (/system/bin/servicemanager)
+01-20 11:37:18.565  1043  1043 E logbuffer_pcie1: [  116] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:19.874   624   624 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 11:37:20.090  1054  1054 E cpif    : check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1672 out:1712 space:39 len:2048}
+01-20 11:37:20.092     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1672 out:1712 space:39 len:2048}
+01-20 11:37:20.093     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1632 out:1672 space:39 len:2048}
+01-20 11:37:20.094     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1592 out:1632 space:39 len:2048}
+01-20 11:37:20.095     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1552 out:1592 space:39 len:2048}
+01-20 11:37:20.096     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1512 out:1552 space:39 len:2048}
+01-20 11:37:20.097     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1472 out:1512 space:39 len:2048}
+01-20 11:37:20.098     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1432 out:1472 space:39 len:2048}
+01-20 11:37:20.099     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1392 out:1432 space:39 len:2048}
+01-20 11:37:20.100     0     0 E [    C1] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:1352 out:1392 space:39 len:2048}
+--------- beginning of system
+01-20 11:37:22.095  1423  1863 E AppOps  : attributionTag VCN not declared in manifest of android
+01-20 11:37:22.145    86    86 E logbuffer_pcie0: [  119] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:23.378    86    86 E logbuffer_pcie0: [  122] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:24.263    86    86 E logbuffer_pcie0: [  125] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:25.594    10    10 E logbuffer_pcie0: [  128] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:25.674   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+01-20 11:37:25.674   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'STATE' not found
+01-20 11:37:25.674   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+01-20 11:37:25.674   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+01-20 11:37:11.152    10    10 E logbuffer_pcie0: [  131] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:12.649     1     1 E libprocessgroup: Failed to write 1 to /sys/fs/cgroup/system/uid_1000/pid_1129/cgroup.kill: No such file or directory
+01-20 11:37:12.649     1     1 E libprocessgroup: Failed to open /sys/fs/cgroup/system/uid_1000/pid_1129/cgroup.procs: No such file or directory
+01-20 11:37:12.665    86    86 E logbuffer_pcie0: [  134] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:12.749  1116  1116 E logbuffer_pcie1: [  137] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:12.960    86    86 E logbuffer_pcie0: [  140] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:14.430   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:14.430   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:15.112  1116  1116 E logbuffer_pcie1: [  143] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:15.223    10    10 E logbuffer_pcie0: [  146] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:15.933   200   200 E logbuffer_pcie0: [  149] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:16.127  2710  2710 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 11:37:16.127  2710  2710 E st21nfc i2c-st21nfc: i2c_master_send returned -6
+01-20 11:37:19.189   200   200 E logbuffer_pcie0: [  152] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:23.718  1116  1116 E logbuffer_pcie1: [  155] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:25.002     1     1 E libprocessgroup: Failed to write 1 to /sys/fs/cgroup/system/uid_1000/pid_3430/cgroup.kill: No such file or directory
+01-20 11:37:25.002     1     1 E libprocessgroup: Failed to open /sys/fs/cgroup/system/uid_1000/pid_3430/cgroup.procs: No such file or directory
+01-20 11:37:25.936   200   200 E logbuffer_pcie0: [  158] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:29.431   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:29.431   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:31.972   200   200 E logbuffer_pcie0: [  161] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:36.757   200   200 E logbuffer_pcie0: [  164] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:38.814   200   200 E logbuffer_pcie0: [  167] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:42.990    10    10 E logbuffer_pcie0: [  170] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:44.433   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:44.433   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:37:48.562    10    10 E logbuffer_pcie0: [  173] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:53.548    86    86 E logbuffer_pcie0: [  176] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:53.601  1054  1054 E cpif    : check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:3688 out:3728 space:39 len:2048}
+01-20 11:37:53.602     0     0 E [    C2] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:3648 out:3688 space:39 len:2048}
+01-20 11:37:53.604     0     0 E [    C2] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:3608 out:3648 space:39 len:2048}
+01-20 11:37:53.605     0     0 E [    C2] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:3608 out:3648 space:39 len:2048}
+01-20 11:37:53.606     0     0 E [    C2] cpif: check_txq_space: PCIE: NOSPC FMT_TX{qsize:4096 in:3568 out:3608 space:39 len:1800}
+01-20 11:37:53.807  1116  1116 E logbuffer_pcie1: [  179] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:54.071   200   200 E logbuffer_pcie0: [  182] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:54.547  1423  2013 E AppOps  : attributionTag UwbCountryCode not declared in manifest of android
+01-20 11:37:55.150    86    86 E logbuffer_pcie0: [  185] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:59.377   200   200 E logbuffer_pcie0: [  188] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:37:59.419   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'INTERFACE' not found
+01-20 11:37:59.419   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'STATE' not found
+01-20 11:37:59.419   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'TIME_NS' not found
+01-20 11:37:59.419   893   932 E NetlinkEvent: NetlinkEvent::FindParam(): Parameter 'UID' not found
+01-20 11:37:59.433   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:37:59.433   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:38:03.768  1116  1116 E logbuffer_pcie1: [  191] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:04.748  1780  1780 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 10fd1, ntf=0
+01-20 11:38:07.303    10    10 E logbuffer_pcie0: [  194] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:08.865    10    10 E logbuffer_pcie0: [  197] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:12.705  1116  1116 E logbuffer_pcie1: [  200] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:12.848    10    10 E logbuffer_pcie0: [  203] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:14.434   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:38:14.434   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:38:28.422    86    86 E logbuffer_pcie0: [  206] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:29.435   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:38:29.435   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:38:30.318    86    86 E logbuffer_pcie0: [  209] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:35.773    86    86 E logbuffer_pcie0: [  212] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:35.842  1116  1116 E logbuffer_pcie1: [  215] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:36.362    86    86 E logbuffer_pcie0: [  218] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:36.529    86    86 E logbuffer_pcie0: [  221] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:36.899    86    86 E logbuffer_pcie0: [  224] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:37.450    10    10 E logbuffer_pcie0: [  227] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:44.436   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:38:44.437   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:38:46.984    10    10 E logbuffer_pcie0: [  230] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:38:59.438   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:38:59.438   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:39:04.665  1780  1780 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 1f9de, ntf=0
+01-20 11:39:08.744   200   200 E logbuffer_pcie0: [  233] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:39:12.956   200   200 E logbuffer_pcie0: [  236] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:39:14.439   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:39:14.439   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:39:29.441   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:39:29.441   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:39:29.859   200   200 E logbuffer_pcie0: [  239] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:39:36.926   200   200 E logbuffer_pcie0: [  242] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:39:44.442   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:39:44.442   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:39:45.860   200   200 E logbuffer_pcie0: [  245] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:39:59.443   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:39:59.443   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:40:07.285  1116  1116 E logbuffer_pcie1: [  248] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:40:07.372   200   200 E logbuffer_pcie0: [  251] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:40:14.444   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:40:14.444   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:40:28.744    10    10 E logbuffer_pcie0: [  254] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:40:29.445   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:40:29.446   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:40:44.447   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:40:44.447   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:40:50.504    86    86 E logbuffer_pcie0: [  257] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:40:59.447   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:40:59.447   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:41:04.470  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 3cddc, ntf=0
+01-20 11:41:12.265    10    10 E logbuffer_pcie0: [  260] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:41:14.448   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:41:14.449   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:41:21.112    10    10 E logbuffer_pcie0: [  263] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:41:29.450   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:41:29.450   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:41:33.386   200   200 E logbuffer_pcie0: [  266] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:41:44.451   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:41:44.451   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:41:55.148   200   200 E logbuffer_pcie0: [  273] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:41:59.453   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:41:59.453   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:42:04.375  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 4b7dc, ntf=0
+01-20 11:42:13.816  1116  1116 E logbuffer_pcie1: [  276] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:42:14.454   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:42:14.454   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:42:16.906    86    86 E logbuffer_pcie0: [  279] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:42:29.455   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:42:29.455   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:42:38.666    86    86 E logbuffer_pcie0: [  282] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:42:44.456   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:42:44.457   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:42:59.457   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:42:59.458   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:43:00.427   200   200 E logbuffer_pcie0: [  285] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:43:04.282  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 5a1e0, ntf=0
+01-20 11:43:14.459   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:43:14.459   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:43:22.188    10    10 E logbuffer_pcie0: [  288] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:43:29.460   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:43:29.460   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:43:43.948   200   200 E logbuffer_pcie0: [  291] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:43:44.461   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:43:44.461   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:43:59.462   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:43:59.462   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:44:04.194  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 68be7, ntf=0
+01-20 11:44:05.708    10    10 E logbuffer_pcie0: [  294] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:44:14.463   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:44:14.463   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:44:27.468    10    10 E logbuffer_pcie0: [  297] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:44:29.465   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:44:29.465   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:44:44.466   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:44:44.466   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:44:49.230  3627  3627 E logbuffer_pcie0: [  300] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:44:59.468   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:44:59.468   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:45:04.110  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 775f3, ntf=0
+01-20 11:45:10.989   200   200 E logbuffer_pcie0: [  303] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:45:14.469   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:45:14.469   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:45:16.111  1116  1116 E logbuffer_pcie1: [  306] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:45:29.470   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:45:29.470   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:45:32.749    10    10 E logbuffer_pcie0: [  309] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:45:37.290    10    10 E logbuffer_pcie0: [  312] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:45:44.471   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:45:44.471   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:45:53.868  3627  3627 E logbuffer_pcie0: [  315] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:45:59.472   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:45:59.472   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:46:04.036  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 8600a, ntf=0
+01-20 11:46:14.473   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:46:14.473   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:46:15.629    10    10 E logbuffer_pcie0: [  318] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:46:29.474   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:46:29.475   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:46:37.389  3627  3627 E logbuffer_pcie0: [  321] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:46:44.476   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:46:44.476   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:46:59.149    10    10 E logbuffer_pcie0: [  324] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:46:59.477   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:46:59.477   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:47:03.981  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 94a33, ntf=0
+01-20 11:47:14.478   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:47:14.478   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:47:20.910    10    10 E logbuffer_pcie0: [  327] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:21.923  1116  1116 E logbuffer_pcie1: [  330] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:27.193  1116  1116 E logbuffer_pcie1: [  333] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:29.479   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:47:29.479   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:47:30.065  1116  1116 E logbuffer_pcie1: [  336] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:32.494  1116  1116 E logbuffer_pcie1: [  339] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:36.994  3627  3627 E logbuffer_pcie0: [  342] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:39.501  1116  1116 E logbuffer_pcie1: [  345] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:42.031    10    10 E logbuffer_pcie0: [  348] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:44.480   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:47:44.480   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:47:44.603  1116  1116 E logbuffer_pcie1: [  351] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:47.640  1116  1116 E logbuffer_pcie1: [  354] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:53.426  1116  1116 E logbuffer_pcie1: [  357] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:58.683  1116  1116 E logbuffer_pcie1: [  360] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:47:59.481   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:47:59.481   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:48:03.796  3627  3627 E logbuffer_pcie0: [  363] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:48:08.956   200   200 E logbuffer_pcie0: [  366] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:48:14.482   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:48:14.482   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:48:25.550  3627  3627 E logbuffer_pcie0: [  369] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:48:29.483   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:48:29.484   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:48:44.485   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:48:44.485   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:48:47.312  3725  3725 E logbuffer_pcie0: [  372] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:48:54.759  1116  1116 E logbuffer_pcie1: [  375] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:48:59.486   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:48:59.486   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:49:03.840  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: b1e66, ntf=0
+01-20 11:49:09.072   200   200 E logbuffer_pcie0: [  378] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:49:14.487   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:49:14.488   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:49:29.488   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:49:29.489   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:49:30.834   200   200 E logbuffer_pcie0: [  381] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:49:44.391  1116  1116 E logbuffer_pcie1: [  384] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:49:44.490   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:49:44.490   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:49:52.593  3725  3725 E logbuffer_pcie0: [  387] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:49:59.491   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:49:59.491   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:50:03.765  1777  1777 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: c087b, ntf=0
+01-20 11:50:14.353  3627  3627 E logbuffer_pcie0: [  394] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:14.491   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:50:14.491   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:50:25.813  1116  1116 E logbuffer_pcie1: [  397] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:25.899  3725  3725 E logbuffer_pcie0: [  400] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:29.492   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:50:29.493   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:50:35.473  3627  3627 E logbuffer_pcie0: [  403] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:44.494   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:50:44.494   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:50:54.797  1116  1116 E logbuffer_pcie1: [  406] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:54.951   200   200 E logbuffer_pcie0: [  409] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:56.592  3627  3627 E logbuffer_pcie0: [  412] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:50:59.495   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:50:59.495   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:51:03.698  3753  3753 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: cf298, ntf=0
+01-20 11:51:14.496   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:51:14.496   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:51:18.355  3725  3725 E logbuffer_pcie0: [  415] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:23.572  1116  1116 E logbuffer_pcie1: [  418] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:23.652   200   200 E logbuffer_pcie0: [  421] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:29.497   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:51:29.497   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:51:30.095  1116  1116 E logbuffer_pcie1: [  424] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:30.261   200   200 E logbuffer_pcie0: [  427] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:38.836  3627  3627 E logbuffer_pcie0: [  430] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:51:44.498   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:51:44.498   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:51:59.499   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:51:59.499   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:52:00.594  3627  3627 E logbuffer_pcie0: [  433] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:03.626  3753  3753 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: ddcaf, ntf=0
+01-20 11:52:09.774  1116  1116 E logbuffer_pcie1: [  436] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:10.150  3627  3627 E logbuffer_pcie0: [  439] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:14.500   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:52:14.500   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:52:20.527  3627  3627 E logbuffer_pcie0: [  442] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:21.714  3627  3627 E logbuffer_pcie0: [  445] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:29.501   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:52:29.501   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:52:43.474  3725  3725 E logbuffer_pcie0: [  448] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:52:44.502   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:52:44.503   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:52:59.503   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:52:59.504   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:53:03.549  3753  3753 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: ec6c2, ntf=0
+01-20 11:53:05.235  3725  3725 E logbuffer_pcie0: [  451] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:14.505   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:53:14.505   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:53:21.501  1116  1116 E logbuffer_pcie1: [  454] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:21.584  3725  3725 E logbuffer_pcie0: [  457] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:26.357  3627  3627 E logbuffer_pcie0: [  460] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:26.528  3627  3627 E logbuffer_pcie0: [  463] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:29.506   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:53:29.506   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:53:44.507   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:53:44.507   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:53:48.753  3627  3627 E logbuffer_pcie0: [  466] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:53:59.508   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:53:59.508   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:54:09.473  3725  3725 E logbuffer_pcie0: [  473] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:09.875  3725  3725 E logbuffer_pcie0: [  476] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:14.509   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:54:14.510   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:54:20.782  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 11:54:21.998  1094  1094 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 11:54:29.511   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:54:29.511   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:54:29.578  1116  1116 E logbuffer_pcie1: [  479] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:29.661  3627  3627 E logbuffer_pcie0: [  482] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:31.636  3725  3725 E logbuffer_pcie0: [  485] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:44.512   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:54:44.512   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:54:53.398  3725  3725 E logbuffer_pcie0: [  488] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:54:59.513   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:54:59.513   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:55:03.384  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 109ade, ntf=0
+01-20 11:55:14.514   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:55:14.514   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:55:14.544  1116  1116 E logbuffer_pcie1: [  491] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:55:14.626  3829  3829 E logbuffer_pcie0: [  494] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:55:29.515   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:55:29.515   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:55:36.276  3627  3627 E logbuffer_pcie0: [  497] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:55:44.516   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:55:44.517   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:55:58.037  3725  3725 E logbuffer_pcie0: [  500] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:55:59.518   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:55:59.518   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:56:03.332  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 118509, ntf=0
+01-20 11:56:14.519   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:56:14.519   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:56:19.796  3829  3829 E logbuffer_pcie0: [  503] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:56:29.520   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:56:29.520   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:56:30.587  1116  1116 E logbuffer_pcie1: [  506] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:56:30.664  3829  3829 E logbuffer_pcie0: [  509] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:56:40.920  3627  3627 E logbuffer_pcie0: [  512] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:56:44.521   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:56:44.521   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:56:59.522   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:56:59.523   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:57:02.034  3627  3627 E logbuffer_pcie0: [  519] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:57:03.293  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 126f42, ntf=0
+01-20 11:57:14.523   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:57:14.524   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:57:23.156  3829  3829 E logbuffer_pcie0: [  522] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:57:29.525   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:57:29.525   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:57:44.526   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:57:44.526   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:57:44.916  3829  3829 E logbuffer_pcie0: [  525] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:57:59.527   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:57:59.528   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:58:02.784  1116  1116 E logbuffer_pcie1: [  528] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:02.881  3627  3627 E logbuffer_pcie0: [  531] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:03.260  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 135982, ntf=0
+01-20 11:58:03.676  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 11:58:05.396  3627  3627 E logbuffer_pcie0: [  534] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:07.004  3627  3627 E logbuffer_pcie0: [  537] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:09.049  3627  3627 E logbuffer_pcie0: [  540] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:09.631  1116  1116 E logbuffer_pcie1: [  543] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:09.710  3627  3627 E logbuffer_pcie0: [  546] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:14.529   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:58:14.529   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:58:25.234  3627  3627 E logbuffer_pcie0: [  549] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:29.530   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:58:29.530   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:58:35.351  1116  1116 E logbuffer_pcie1: [  552] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:35.431  3627  3627 E logbuffer_pcie0: [  555] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:44.531   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:58:44.531   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:58:45.273  1116  1116 E logbuffer_pcie1: [  558] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:45.357  3725  3725 E logbuffer_pcie0: [  561] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:45.715  3725  3725 E logbuffer_pcie0: [  564] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:58:59.532   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:58:59.532   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:59:03.199  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 1443a5, ntf=0
+01-20 11:59:06.838  3829  3829 E logbuffer_pcie0: [  567] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:07.819  1116  1116 E logbuffer_pcie1: [  570] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:07.901  3829  3829 E logbuffer_pcie0: [  573] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:14.533   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:59:14.533   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:59:27.958  3627  3627 E logbuffer_pcie0: [  580] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:29.534   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:59:29.535   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:59:43.816  1116  1116 E logbuffer_pcie1: [  583] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:44.536   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:59:44.536   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 11:59:49.721  3725  3725 E logbuffer_pcie0: [  586] OC Initial Status check: 0x5FC(0xf0)
+01-20 11:59:59.537   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 11:59:59.537   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:00:00.120  3725  3725 E logbuffer_pcie0: [  589] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:00.195  1116  1116 E logbuffer_pcie1: [  592] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:00.702  3725  3725 E logbuffer_pcie0: [  595] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:03.140  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 152dc9, ntf=0
+01-20 12:00:10.843  3918  3918 E logbuffer_pcie0: [  598] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:14.538   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:00:14.538   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:00:29.539   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:00:29.539   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:00:32.602  3725  3725 E logbuffer_pcie0: [  601] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:44.541   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:00:44.541   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:00:54.362  3918  3918 E logbuffer_pcie0: [  604] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:00:59.542   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:00:59.542   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:01:03.074  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 1617e7, ntf=0
+01-20 12:01:14.543   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:01:14.543   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:01:16.122  3918  3918 E logbuffer_pcie0: [  607] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:01:29.544   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:01:29.544   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:01:37.884  3918  3918 E logbuffer_pcie0: [  610] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:01:44.546   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:01:44.546   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:01:59.547   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:01:59.548   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:02:00.282  3918  3918 E logbuffer_pcie0: [  613] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:02:03.019  1779  1779 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 170211, ntf=0
+01-20 12:02:14.549   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:02:14.549   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:02:22.043  3725  3725 E logbuffer_pcie0: [  616] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:02:29.550   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:02:29.550   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:02:43.803  3725  3725 E logbuffer_pcie0: [  623] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:02:44.551   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:02:44.551   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:02:52.728  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:02:55.862  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:02:59.552   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:02:59.552   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:03:02.819  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:03:02.949  3889  3889 E st21nfc i2c-st21nfc: Error: Switched from IDLE to IDLE!: 17ec2b, ntf=0
+01-20 12:03:05.560  3725  3725 E logbuffer_pcie0: [  626] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:09.022  1131  1131 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:03:14.553   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:03:14.553   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:03:26.682  3918  3918 E logbuffer_pcie0: [  629] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:29.554   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:03:29.554   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:03:44.555   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:03:44.555   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:03:48.444  3725  3725 E logbuffer_pcie0: [  632] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:52.933  1116  1116 E logbuffer_pcie1: [  635] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:53.013  3829  3829 E logbuffer_pcie0: [  638] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:55.350  2710  2710 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 12:03:55.351  2710  2710 E st21nfc i2c-st21nfc: i2c_master_send returned -6
+01-20 12:03:55.370   624   624 E [  error] syna_tcm_v1_read_message: Incorrect Status code, 0x0f
+01-20 12:03:55.370   624   624 E [  error] syna_tcm_v1_write_message: Received code 0x0f (command 0x23)
+01-20 12:03:55.370   624   624 E [  error] syna_tcm_get_dynamic_config: Fail to send command 0x23 to get dynamic field 0xf2
+01-20 12:03:55.371  3829  3829 E logbuffer_pcie0: [  641] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:55.386  1116  1116 E logbuffer_pcie1: [  642] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:56.519  1633  1633 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 12:03:58.027  2145  2171 E SingleInstanceRemoteListener: Failed remote call on null listener
+01-20 12:03:58.043  1423  2345 E BiometricScheduler: Current operation is null,no need to start watchdog
+01-20 12:03:58.093  1423  1528 E WearableSensingManagerPerUserService: Bad service name: com.google.android.glasses.core/com.google.android.projection.core.secure.TrustedAmbientSensingService
+01-20 12:03:58.193  1423  2070 E BackupPasswordManager: Unable to read backup pw version
+01-20 12:03:58.193  1423  2070 E BackupPasswordManager: Unable to read saved backup pw hash
+01-20 12:03:58.205  2145  2171 E SingleInstanceRemoteListener: Failed remote call on null listener
+01-20 12:03:58.616  1116  1116 E logbuffer_pcie1: [  647] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:58.577  1423  2381 E BiometricScheduler: Current operation is null,no need to start watchdog
+01-20 12:03:58.895  3725  3725 E logbuffer_pcie0: [  650] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:03:59.389  1423  2021 E SyncManager: Couldn't find backoff values for Account {name=xxxxxxxx@xxxxx.xxx, type=com.google}/subscribedfeeds:u0
+01-20 12:03:59.556   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:03:59.556   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:03:59.719  1423  2347 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:03:59.735  1423  4263 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:03:59.882  1423  4263 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:03:59.893  1423  4263 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:03:59.895  1423  4263 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:03:59.952  1423  4272 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.119  1423  4272 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.138  1423  1809 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.168  1423  4264 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.182  1423  1865 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.333  1116  1116 E logbuffer_pcie1: [  653] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:00.200  1423  1865 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.211  1423  4264 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.255  1423  2093 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.273  1423  4273 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.297  1423  4253 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.303  1423  4270 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.319  1423  4252 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.417  1423  2366 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:00.444  1423  2381 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:01.330  1423  4211 E JobScheduler.JobStatus: App com.google.android.inputmethod.latin became active but still in NEVER bucket
+01-20 12:04:01.388  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.subscriptions.red has 0 EJ quota without running anything
+01-20 12:04:01.391  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.subscriptions.red has 0 EJ quota without running anything
+01-20 12:04:01.405  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.subscriptions.red has 0 EJ quota without running anything
+01-20 12:04:01.478  3725  3725 E logbuffer_pcie0: [  656] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:01.472  1423  1527 E PackageManager: Optimistic bind failed.
+01-20 12:04:01.472  1423  1527 E PackageManager: java.util.concurrent.TimeoutException: [Optimistic Bind] Didn't bind to resolver in time!
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.waitForBindLocked(InstantAppResolverConnection.java:160)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.bind(InstantAppResolverConnection.java:230)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.lambda$optimisticBind$0(InstantAppResolverConnection.java:260)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection.$r8$lambda$66W2s2mMKe4pk_xXCScH9RCqav8(InstantAppResolverConnection.java:0)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at com.android.server.pm.InstantAppResolverConnection$$ExternalSyntheticLambda0.run(R8$$SyntheticClass:0)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.Handler.handleCallback(Handler.java:1095)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.Looper.loopOnce(Looper.java:269)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.Looper.loop(Looper.java:367)
+01-20 12:04:01.472  1423  1527 E PackageManager: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+01-20 12:04:01.502  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.magazines has 0 EJ quota without running anything
+01-20 12:04:01.518  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.magazines has 0 EJ quota without running anything
+01-20 12:04:01.547  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.magazines has 0 EJ quota without running anything
+01-20 12:04:02.933  1633  1633 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 12:04:05.782  1423  3045 E JobScheduler.Concurrency: # stated jobs for 8 went negative.
+01-20 12:04:05.842  1423  2345 E JobScheduler.Concurrency: # stated jobs for 8 went negative.
+01-20 12:04:05.892  2718  2718 E ActivityThread: Failed to find provider info for 20:F0:94:4B:FF:5C
+01-20 12:04:05.916  2718  2718 E ActivityThread: Failed to find provider info for 20:F0:94:4B:FF:5C
+01-20 12:04:06.199  4003  4003 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 12:04:06.785  1423  1488 E ActivityTaskManager: Activity start ONLY allowed by BAL_ALLOW_NON_APP_VISIBLE_WINDOW uid has non-app visible window {2000=1, 2013=1, 2024=1, 2040=1}: [callingPackage: android; callingPackageTargetSdk: 36; callingUid: 1000; callingPid: -1; appSwitchState: 2; callingUidHasVisibleActivity: false; callingUidHasVisibleNotPinnedActivity: false; callingUidHasNonAppVisibleWindow: false; callingUidProcState: PERSISTENT; isCallingUidPersistentSystemProcess: true; allowBalExemptionForSystemProcess: false; intent: Intent { act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10008000 xflg=0x4 cmp=com.android.settings/.Settings$UsbDetailsActivity }; callerApp: null; balAllowedByPiCreator: BSP.NONE; resultIfPiCreatorAllowsBal: BAL_ALLOW_ALLOWLISTED_UID; callerStartMode: MODE_BACKGROUND_ACTIVITY_START_SYSTEM_DEFINED; hasRealCaller: true; isCallForResult: false; isPendingIntent: true; autoOptInReason: null; realCallingPackage: com.android.systemui; realCallingPackageTargetSdk: 36; realCallingUid: 10270; realCallingPid: 2145; realCallingUidHasVisibleActivity: false; realCallingUidHasVisibleNotPinnedActivity: false; realCallingUidHasNonAppVisibleWindow: true; realCallingUidProcState: PERSISTENT_UI; isRealCallingUidPersistentSystemProcess: true; originatingPendingIntent: PendingIntentRecord{bf94a2 android startActivity}; realCallerApp: ProcessRecord{79921f5 2145:com.android.systemui/u0a270}; realInVisibleTask: false; balAllowedByPiSender: BSP.ALLOW_BAL; resultIfPiSenderAllowsBal: BAL_ALLOW_NON_APP_VISIBLE_WINDOW; realCallerStartMode: MODE_BACKGROUND_ACTIVITY_START_ALLOWED; balDontBringExistingBackgroundTaskStackToFg: true]
+01-20 12:04:07.000  3829  3829 E logbuffer_pcie0: [  659] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:08.590  1423  1969 E BiometricService/AuthSession: onDialogAnimatedIn, unexpected state: 9
+01-20 12:04:08.933  3725  3725 E logbuffer_pcie0: [  662] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:09.610  3725  3725 E logbuffer_pcie0: [  665] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:09.652   173   173 E exynos5-hsi2c 10970000.hsi2c: ack was not received at write
+01-20 12:04:10.436  3725  3725 E logbuffer_pcie0: [  668] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:10.855  3725  3725 E logbuffer_pcie0: [  671] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:11.442  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.subscriptions.red has 0 EJ quota without running anything
+01-20 12:04:11.528  1423  1865 E JobScheduler.JobStatus: App com.google.android.apps.subscriptions.red became active but still in NEVER bucket
+01-20 12:04:11.714  3918  3918 E logbuffer_pcie0: [  674] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:11.865   959   959 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:04:11.848  1423  1969 E BiometricService/AuthSession: mTokenEscrow is null
+01-20 12:04:11.982  1423  4857 E JobScheduler.JobStatus: App com.google.android.apps.subscriptions.red became active but still in NEVER bucket
+01-20 12:04:12.041  1423  1488 E JobScheduler.JobStatus: App com.google.android.apps.subscriptions.red became active but still in NEVER bucket
+01-20 12:04:12.838  3918  3918 E logbuffer_pcie0: [  677] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:12.911  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.magazines has 0 EJ quota without running anything
+01-20 12:04:12.920  1423  4254 E JobScheduler.JobStatus: App com.google.android.apps.magazines became active but still in NEVER bucket
+01-20 12:04:13.105  3918  3918 E logbuffer_pcie0: [  680] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:13.348  3918  3918 E logbuffer_pcie0: [  683] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:13.758  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.maps has 0 EJ quota without running anything
+01-20 12:04:13.765  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.maps has 0 EJ quota without running anything
+01-20 12:04:13.766  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.maps has 0 EJ quota without running anything
+01-20 12:04:14.001  1423  4252 E AppOps  : attributionTag UwbCountryCode not declared in manifest of android
+01-20 12:04:14.395  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.maps has 0 EJ quota without running anything
+01-20 12:04:14.556   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:04:14.556   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:04:14.717  3725  3725 E logbuffer_pcie0: [  686] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:15.243  1423  1863 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:15.552  3918  3918 E logbuffer_pcie0: [  689] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:15.701  1423  2384 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.704  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.708  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.731  1423  4211 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.743  3918  3918 E logbuffer_pcie0: [  692] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:15.774  1423  1488 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.806  1423  1488 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.813  1423  4211 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.855  1423  2384 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.861  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:15.907  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:16.070  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:16.398  1423  4210 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:16.602  3918  3918 E logbuffer_pcie0: [  695] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:16.878  3918  3918 E logbuffer_pcie0: [  698] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:17.140  3725  3725 E logbuffer_pcie0: [  701] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:17.228   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:17.263   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:17.247  1423  4253 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:17.293  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:17.366  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:17.482  1423  3045 E JobScheduler.JobStatus: App com.google.android.apps.subscriptions.red became active but still in NEVER bucket
+01-20 12:04:17.558  1423  2381 E JobScheduler.JobStatus: App com.google.android.apps.subscriptions.red became active but still in NEVER bucket
+01-20 12:04:17.684  1423  2381 E JobScheduler.JobStatus: App com.google.android.apps.nbu.files became active but still in NEVER bucket
+01-20 12:04:19.206   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:19.211   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:19.477  1423  4210 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:19.645  1423  2093 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:19.788  1423  2384 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:20.354   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:20.889   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:20.893   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:21.087  2915  8907 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:04:21.109  2915  8907 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:04:21.416  2915  8948 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:04:21.748  1423  1889 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:21.748  1423  1889 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:21.749  1423  1889 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:21.749  1423  1889 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:21.749  1423  1889 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.264  1423  2380 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.269  1423  4263 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.278  1423  1809 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.289  1423  1487 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.301  1423  1865 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.316   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:22.314   557  5376 E keystore2: system/security/keystore2/src/error.rs:185 - system/security/keystore2/src/security_level.rs:380: Failed to begin operation.
+01-20 12:04:22.314   557  5376 E keystore2: 
+01-20 12:04:22.314   557  5376 E keystore2: Caused by:
+01-20 12:04:22.314   557  5376 E keystore2:     0: system/security/keystore2/src/security_level.rs:986: upgrade_keyblob_if_required_with(key_id=Some(KeyIdGuard(6867315553432142002)))
+01-20 12:04:22.314   557  5376 E keystore2:     1: system/security/keystore2/src/utils.rs:492: Calling km_op.
+01-20 12:04:22.314   557  5376 E keystore2:     2: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+01-20 12:04:22.351  1423  4857 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.361  1423  4857 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.540  1423  2381 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:22.747  1423  1865 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.026  1423  1487 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.103  1423  4272 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.356   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:23.446  1423  2347 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.608  1423  4210 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.959  1423  4211 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:23.997   499   499 E SELinux : avc:  denied  { find } for pid=8023 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:24.106  1423  1889 E JobScheduler.Quota: <0>com.google.android.keep has 0 EJ quota without running anything
+01-20 12:04:24.106  1423  1889 E JobScheduler.Quota: <0>com.google.android.keep has 0 EJ quota without running anything
+01-20 12:04:24.106  1423  1889 E JobScheduler.Quota: <0>com.google.android.keep has 0 EJ quota without running anything
+01-20 12:04:24.110  1423  1889 E JobScheduler.Quota: <0>com.google.android.keep has 0 EJ quota without running anything
+01-20 12:04:24.216  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.tachyon has 0 EJ quota without running anything
+01-20 12:04:24.217  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.tachyon has 0 EJ quota without running anything
+01-20 12:04:24.217  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.tachyon has 0 EJ quota without running anything
+01-20 12:04:24.222  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.tachyon has 0 EJ quota without running anything
+01-20 12:04:24.420  1423  9477 E SettingsToPropertiesMapper: key=persist.device_config.storage_native_boot.transcode_compat_manifest value=com.yelp.android,0,com.yy.biu,0,com.groupme.android,0,air.tv.douyu.android,0,com.baidu.mbaby,0,com.vlocker.locker,0,com.znxh.hyhuo,0,com.yixia.xiaokaxiu,0 exceeds system property max length.
+01-20 12:04:24.463  1423  2093 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:24.480  1423  1889 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.480  1423  1889 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.480  1423  1889 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.553  1423  4208 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.576  1423  1487 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.588  1423  1487 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.590  1423  4254 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.600  1423  4264 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.604  1423  4275 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.633  1423  4745 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.652  1423  4745 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.744  1423  4254 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.799  1423  4275 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.833  1423  2347 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.876  1423  4273 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.943  1423  4263 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.970  1423  2384 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:24.979  1423  4211 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:24.982  1423  4263 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:25.011  1423  4272 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.053  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.docs.editors.docs has 0 EJ quota without running anything
+01-20 12:04:25.053  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.docs.editors.docs has 0 EJ quota without running anything
+01-20 12:04:25.053  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.docs.editors.docs has 0 EJ quota without running anything
+01-20 12:04:25.104  1423  4269 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.128  1423  1488 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.320  1423  2093 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.335  1423  4273 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.356  1423  4270 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.364  1423  2093 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.423  1423  1488 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.441  1423  4269 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.467  1423  1889 E JobScheduler.Quota: <0>com.google.android.apps.docs.editors.docs has 0 EJ quota without running anything
+01-20 12:04:25.499  1423  1488 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.502  1423  4273 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.505  1423  4273 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.534  1423  4211 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.577  1423  4211 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.582  1423  4211 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.625  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.661  1423  4270 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.698  1423  2093 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:25.717  1423  4275 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:25.730  1423  4269 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:25.756  1423  4263 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.808  1423  4247 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.828  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.838  1423  4745 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:25.840  1423  2698 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:25.857  1423  2380 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:25.935  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:26.001  1423  1488 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.015  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:26.058  1423  4247 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:26.065  1423  4208 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.074  1423  1889 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.075  1423  1889 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.077  1423  4208 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.080  1423  2347 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.084  1423  4208 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:26.086  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.093  1423  4269 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.176  1423  4264 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:26.177  1423  1487 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.193  1423  4273 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.198  1423  4273 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.328  1423  4269 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:26.367  1423  4270 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.372  1423  4252 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:26.424  1423  4252 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.449  1423  4211 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.492  1423  2347 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:26.494  1423  4247 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.550  1423  2347 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.558  1423  4745 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:26.632  1423  2381 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:26.683  1423  2381 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.892  1423  4272 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:26.896  1423  4273 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:26.967  1423  2381 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.017  1423  4273 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:27.067  1423  2381 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.114  1423  2093 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.118  1423  4273 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.151  1423  1865 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.247  1423  4270 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:27.250  1423  4253 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.259  1423  4253 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:27.439  1423  4264 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:27.539  1423  4208 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.654  1423  2384 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:27.707  1423  4264 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:27.742  1423  2347 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:28.031  3725  3725 E logbuffer_pcie0: [  704] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:28.188  3725  3725 E logbuffer_pcie0: [  707] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:28.221  1423  4247 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:28.242  1423  1865 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:28.349  1423  2347 E JobScheduler.JobStatus: App com.google.android.apps.docs.editors.docs became active but still in NEVER bucket
+01-20 12:04:28.497  3725  3725 E logbuffer_pcie0: [  710] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:28.858  2718  5502 E ActivityThread: Failed to find provider info for 20:F0:94:4B:FF:5C
+01-20 12:04:29.186  1423  4208 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:29.248  1423  9477 E SettingsToPropertiesMapper: key=persist.device_config.configuration.AdbWritableFlags__adb_writable_flags_list value=adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies, exceeds system property max length.
+01-20 12:04:29.280  2490  2490 E ActivityThread: Activity com.google.android.apps.nexuslauncher.NexusLauncherActivity has leaked IntentReceiver com.android.launcher3.util.SimpleBroadcastReceiver@70f4f2d that was originally registered here. Are you missing a call to unregisterReceiver()?
+01-20 12:04:29.280  2490  2490 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.google.android.apps.nexuslauncher.NexusLauncherActivity has leaked IntentReceiver com.android.launcher3.util.SimpleBroadcastReceiver@70f4f2d that was originally registered here. Are you missing a call to unregisterReceiver()?
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1971)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1711)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1972)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1931)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:812)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:812)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at com.android.launcher3.util.SimpleBroadcastReceiver$register$1$1.run(go/retraceme 7f25100118474ef18f62f9ebf2467d0f2e62d94bfd83166ea27ccce49df1b4bd:15)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.Handler.handleCallback(Handler.java:1095)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.Looper.loopOnce(Looper.java:269)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.Looper.loop(Looper.java:367)
+01-20 12:04:29.280  2490  2490 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+01-20 12:04:29.281  2490  2490 E ActivityThread: Activity com.google.android.apps.nexuslauncher.NexusLauncherActivity has leaked IntentReceiver x7.i0@f60010c that was originally registered here. Are you missing a call to unregisterReceiver()?
+01-20 12:04:29.281  2490  2490 E ActivityThread: android.app.IntentReceiverLeaked: Activity com.google.android.apps.nexuslauncher.NexusLauncherActivity has leaked IntentReceiver x7.i0@f60010c that was originally registered here. Are you missing a call to unregisterReceiver()?
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.app.LoadedApk$ReceiverDispatcher.<init>(LoadedApk.java:1971)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.app.LoadedApk.getReceiverDispatcher(LoadedApk.java:1711)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.app.ContextImpl.registerReceiverInternal(ContextImpl.java:1972)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1924)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.app.ContextImpl.registerReceiver(ContextImpl.java:1912)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:793)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.content.ContextWrapper.registerReceiver(ContextWrapper.java:793)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at com.google.android.systemui.smartspace.IcuDateTextView$$ExternalSyntheticLambda4.run(go/retraceme 7f25100118474ef18f62f9ebf2467d0f2e62d94bfd83166ea27ccce49df1b4bd:13)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.Handler.handleCallback(Handler.java:1095)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.Handler.dispatchMessageImpl(Handler.java:135)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.Handler.dispatchMessage(Handler.java:125)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.Looper.loopOnce(Looper.java:269)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.Looper.loop(Looper.java:367)
+01-20 12:04:29.281  2490  2490 E ActivityThread: 	at android.os.HandlerThread.run(HandlerThread.java:139)
+01-20 12:04:29.350  1423  4208 E JobScheduler.JobStatus: App com.google.android.apps.translate became active but still in NEVER bucket
+01-20 12:04:29.441  1423  1865 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: Unable to set property persist.device_config.computer_control.test_flag value 'false'
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: java.lang.RuntimeException: failed to set system property "persist.device_config.computer_control.test_flag" to "false" (check logcat for reason)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at android.os.SystemProperties.native_set(Native Method)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at android.os.SystemProperties.set(SystemProperties.java:237)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.setProperty(SettingsToPropertiesMapper.java:576)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.lambda$updatePropertiesFromSettings$0(SettingsToPropertiesMapper.java:203)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.$r8$lambda$EgBV8Dz39zCT3L1Nko75WeB64pU(SettingsToPropertiesMapper.java:0)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper$$ExternalSyntheticLambda0.onPropertiesChanged(R8$$SyntheticClass:0)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at android.provider.DeviceConfig.lambda$handleChange$1(DeviceConfig.java:1796)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at android.provider.DeviceConfig$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:04:29.551  1423  9477 E SettingsToPropertiesMapper: 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:04:29.552  1423  4857 E JobScheduler.JobStatus: App com.google.android.keep became active but still in NEVER bucket
+01-20 12:04:29.556   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:04:29.556   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:04:29.557   370   370 E init    : Unable to set property 'persist.device_config.computer_control.test_flag' from uid:1000 gid:1000 pid:1423: SELinux permission check failed
+01-20 12:04:29.629  1423  4745 E JobScheduler.JobStatus: App com.google.android.apps.tachyon became active but still in NEVER bucket
+01-20 12:04:29.696  1423  1423 E DeviceConfig: Parsing int failed for location_mode
+01-20 12:04:30.014 10259 10259 E logbuffer_pcie0: [  713] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:30.943   557   586 E keystore2: system/security/keystore2/src/error.rs:185 - system/security/keystore2/src/security_level.rs:334
+01-20 12:04:30.943   557   586 E keystore2: 
+01-20 12:04:30.943   557   586 E keystore2: Caused by:
+01-20 12:04:30.943   557   586 E keystore2:     0: system/security/keystore2/src/enforcements.rs:596: matching auth token (challenge=0, userId=2602141199830652794, authId=0, authType=0x1, timestamp=1647770ms) rcved=BootTime(1636691) for sids [SecureUserId(2602141199830652794)] type Some(3) is expired (19s old > timeout=10s)
+01-20 12:04:30.943   557   586 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+01-20 12:04:31.384  1423  9477 E SettingsToPropertiesMapper: key=persist.device_config.configuration.AdbWritableFlags__adb_writable_flags_list value=adservices/disable_sdk_sandbox,adservices/enforce_broadcast_receiver_restrictions,adservices/fledge_ad_selection_enforce_foreground_status_custom_audience,adservices/fledge_custom_audience_max_count,adservices/fledge_custom_audience_max_num_ads,adservices/fledge_custom_audience_max_owner_count,adservices/fledge_custom_audience_per_app_max_count,adservices/fledge_js_isolate_enforce_max_heap_size,adservices/fledge_js_isolate_max_heap_size_bytes,adservices/sdk_request_permits_per_second,adservices/sdksandbox_customized_sdk_context_enabled,configuration/namespace_to_package_mapping,constrain_display_apis/always_constrain_display_apis,constrain_display_apis/never_constrain_display_apis,constrain_display_apis/never_constrain_display_apis_all_packages,device_policy_manager/disable_resources_updatability,flipendo/default_savings_mode_launch,flipendo/essential_apps,flipendo/flipendo_enabled_launch,flipendo/grayscale_enabled_launch,flipendo/lever_ble_scanning_enabled_launch,flipendo/lever_hotspot_enabled_launch,flipendo/lever_work_profile_enabled_launch,flipendo/resuspend_delay_minutes,namespace/key,namespace1/key1,namespace1/key2,namespace2/key1,namespace2/key2,package_manager_service/incfs_default_timeouts,package_manager_service/known_digesters_list,privacy/location_access_check_periodic_interval_millis,rollback/enable_rollback_timeout,rollback/watchdog_explicit_health_check_enabled,rollback/watchdog_request_timeout_millis,rollback/watchdog_trigger_failure_count,rollback/watchdog_trigger_failure_duration_millis,rollback_boot/rollback_lifetime_in_millis,systemui/nas_generate_actions,systemui/nas_generate_replies,systemui/nas_max_messages_to_extract,systemui/nas_max_suggestions,testspace/another,testspace/flagname,textclassifier/config_updater_model_enabled,textclassifier/key,textclassifier/key2,textclassifier/manifest_url_annotator_en,textclassifier/manifest_url_annotator_ru,textclassifier/model_download_backoff_delay_in_millis,textclassifier/model_download_manager_enabled,textclassifier/multi_language_support_enabled,textclassifier/testing_locale_list_override,textclassifier/textclassifier_service_package_override,window_manager/enable_default_rescind_bal_privileges_from_pending_intent_sender,wrong/nas_generate_replies, exceeds system property max length.
+01-20 12:04:31.750   370   370 E init    : Unable to set property 'persist.device_config.computer_control.test_flag' from uid:1000 gid:1000 pid:1423: SELinux permission check failed
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: Unable to set property persist.device_config.computer_control.test_flag value 'false'
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: java.lang.RuntimeException: failed to set system property "persist.device_config.computer_control.test_flag" to "false" (check logcat for reason)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at android.os.SystemProperties.native_set(Native Method)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at android.os.SystemProperties.set(SystemProperties.java:237)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.setProperty(SettingsToPropertiesMapper.java:576)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.lambda$updatePropertiesFromSettings$0(SettingsToPropertiesMapper.java:203)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper.$r8$lambda$EgBV8Dz39zCT3L1Nko75WeB64pU(SettingsToPropertiesMapper.java:0)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at com.android.server.am.SettingsToPropertiesMapper$$ExternalSyntheticLambda0.onPropertiesChanged(R8$$SyntheticClass:0)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at android.provider.DeviceConfig.lambda$handleChange$1(DeviceConfig.java:1796)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at android.provider.DeviceConfig$$ExternalSyntheticLambda0.run(D8$$SyntheticClass:0)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:04:31.746  1423  9477 E SettingsToPropertiesMapper: 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:04:31.895  1423  1423 E DeviceConfig: Parsing int failed for location_mode
+01-20 12:04:32.062  1423  9477 E SettingsToPropertiesMapper: key=persist.device_config.storage_native_boot.transcode_compat_manifest value=com.yelp.android,0,com.yy.biu,0,com.groupme.android,0,air.tv.douyu.android,0,com.baidu.mbaby,0,com.vlocker.locker,0,com.znxh.hyhuo,0,com.yixia.xiaokaxiu,0 exceeds system property max length.
+01-20 12:04:32.580     1     1 E libprocessgroup: Failed to write 1 to /sys/fs/cgroup/system/uid_1000/pid_9116/cgroup.kill: No such file or directory
+01-20 12:04:32.580     1     1 E libprocessgroup: Failed to open /sys/fs/cgroup/system/uid_1000/pid_9116/cgroup.procs: No such file or directory
+01-20 12:04:32.603  3829  3829 E logbuffer_pcie0: [  716] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:34.164  1423  4208 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:34.191  1423  4745 E JobScheduler.JobStatus: App com.google.android.apps.maps became active but still in NEVER bucket
+01-20 12:04:34.206  1094  1094 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:04:34.206  1094  1094 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:04:34.518  3829  3829 E logbuffer_pcie0: [  719] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:35.300  1423  4745 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:35.410   499   499 E SELinux : avc:  denied  { find } for pid=10578 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:35.426   499   499 E SELinux : avc:  denied  { find } for pid=10578 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:36.157  7483  7483 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:04:36.157  7483  7483 E dwc3 11210000.dwc3: request 0000000000000000 was not queued to ep0out
+01-20 12:04:36.755  1423  4745 E JobScheduler.JobStatus: App com.google.android.videos became active but still in NEVER bucket
+01-20 12:04:37.117  1423  4270 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:37.576 10687 10742 E ActivityThread: Failed to find provider info for com.google.android.instantapps.supervisor.SupervisorArchiveProvider
+01-20 12:04:38.528  2915 10790 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:04:38.528  2915 10790 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:04:38.534   499   499 E SELinux : avc:  denied  { find } for pid=10578 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:40.110  3918  3918 E logbuffer_pcie0: [  722] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:41.564   499   499 E SELinux : avc:  denied  { find } for pid=10578 uid=10256 name=vendor.google.bluetooth_ext.IBluetoothCco/default scontext=u:r:dcservice_app:s0:c512,c768 tcontext=u:object_r:hal_bluetooth_coexistence_service:s0 tclass=service_manager permissive=0
+01-20 12:04:41.720   557 10266 E keystore2: system/security/keystore2/src/error.rs:185 - system/security/keystore2/src/security_level.rs:334
+01-20 12:04:41.720   557 10266 E keystore2: 
+01-20 12:04:41.720   557 10266 E keystore2: Caused by:
+01-20 12:04:41.720   557 10266 E keystore2:     0: system/security/keystore2/src/enforcements.rs:596: matching auth token (challenge=0, userId=2602141199830652794, authId=0, authType=0x1, timestamp=1647770ms) rcved=BootTime(1636691) for sids [SecureUserId(2602141199830652794)] type Some(3) is expired (29s old > timeout=10s)
+01-20 12:04:41.720   557 10266 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+01-20 12:04:42.034  2718  5502 E ActivityThread: Failed to find provider info for 20:F0:94:4B:FF:5C
+01-20 12:04:42.085  1423  1809 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:42.348 10259 10259 E logbuffer_pcie0: [  725] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:42.519   557   557 E keystore2: system/security/keystore2/src/error.rs:185 - system/security/keystore2/src/security_level.rs:334
+01-20 12:04:42.519   557   557 E keystore2: 
+01-20 12:04:42.519   557   557 E keystore2: Caused by:
+01-20 12:04:42.519   557   557 E keystore2:     0: system/security/keystore2/src/enforcements.rs:596: matching auth token (challenge=0, userId=2602141199830652794, authId=0, authType=0x1, timestamp=1647770ms) rcved=BootTime(1636691) for sids [SecureUserId(2602141199830652794)] type Some(3) is expired (30s old > timeout=10s)
+01-20 12:04:42.519   557   557 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+01-20 12:04:42.825 10259 10259 E logbuffer_pcie0: [  728] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:43.103  3918  3918 E logbuffer_pcie0: [  731] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:43.265  1423  4745 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:43.685 10259 10259 E logbuffer_pcie0: [  734] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:44.044   557   586 E keystore2: system/security/keystore2/src/error.rs:185 - system/security/keystore2/src/security_level.rs:334
+01-20 12:04:44.044   557   586 E keystore2: 
+01-20 12:04:44.044   557   586 E keystore2: Caused by:
+01-20 12:04:44.044   557   586 E keystore2:     0: system/security/keystore2/src/enforcements.rs:596: matching auth token (challenge=0, userId=2602141199830652794, authId=0, authType=0x1, timestamp=1647770ms) rcved=BootTime(1636691) for sids [SecureUserId(2602141199830652794)] type Some(3) is expired (32s old > timeout=10s)
+01-20 12:04:44.044   557   586 E keystore2:     1: Error::Km(r#KEY_USER_NOT_AUTHENTICATED)
+01-20 12:04:44.498  1423  4264 E AppOps  : Bad call made by uid 1000. Package "com.google.android.googlequicksearchbox" does not belong to uid 1000.
+01-20 12:04:44.557   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:04:44.557   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:04:51.161 10259 10259 E logbuffer_pcie0: [  737] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:04:52.092  1423  2345 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:53.160  1423  4272 E JobScheduler.JobStatus: App com.google.android.contacts became active but still in NEVER bucket
+01-20 12:04:59.558   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:04:59.558   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:05:03.096  1116  1116 E logbuffer_pcie1: [  740] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:03.203  2718  5502 E ActivityThread: Failed to find provider info for 20:F0:94:4B:FF:5C
+01-20 12:05:04.207  1116  1116 E logbuffer_pcie1: [  743] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:06.370  1116  1116 E logbuffer_pcie1: [  746] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:09.516  1116  1116 E logbuffer_pcie1: [  749] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:11.840  1116  1116 E logbuffer_pcie1: [  752] OC Initial Status check: 0x5FC(0xf0)
+--------- beginning of main
+01-20 12:05:12.316   992   992 E WifiHAL : wifi_reset_tx_power_scenario
+01-20 12:05:12.335 10259 10259 E logbuffer_pcie0: [  755] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:12.945 10259 10259 E logbuffer_pcie0: [  758] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:13.451  1423  2345 E WifiService: Attempt to retrieve passpoint with invalid scanResult List
+01-20 12:05:13.456  2528 11368 E WifiScanner: listener does not exist
+01-20 12:05:13.491  2477  3113 E SatelliteController: registerForSatelliteModemStateChanged: mSatelliteSessionController is not initialized yet
+01-20 12:05:13.502  2477  3113 E SatelliteController: registerForSatelliteModemStateChanged: mSatelliteSessionController is not initialized yet
+01-20 12:05:13.503  2477  3113 E SatelliteController: registerForSatelliteModemStateChanged: mSatelliteSessionController is not initialized yet
+01-20 12:05:14.558   998   998 E exynos-adv-tracer 18360000.exynos-adv_tracer: error return in ipc (2)
+01-20 12:05:14.558   998   998 E etm2dram: etm2dram_delayed_start() ipc (channel=2) failed: -22
+01-20 12:05:15.724  1116  1116 E logbuffer_pcie1: [  765] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:15.817   992   992 E libbinder.IPCThreadState: binder thread pool (1 threads) starved for 100 ms
+01-20 12:05:17.505  1423  1528 E ActivityManager: Unable to freeze binder for 6525: -11
+01-20 12:05:17.541  1423  1423 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+01-20 12:05:17.584  1423  2036 E AppOps  : attributionTag VCN not declared in manifest of android
+01-20 12:05:17.586  2477  2477 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-20 12:05:17.633  1116  1116 E logbuffer_pcie1: [  768] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:17.609  1423  1423 E JobServiceContext: Binding died for com.android.vending but no running job on this context
+01-20 12:05:17.611  2477  2671 E SatelliteAppTracker: packageName: com.android.vending, value: null
+01-20 12:05:17.613  2477  2671 E SatelliteAppTracker: packageName: com.android.vending, value: null
+01-20 12:05:17.672  1423  2094 E system_server: No package ID 7f found for resource ID 0x7f0804c8.
+01-20 12:05:17.672  1423  2094 E system_server: No package ID 7f found for resource ID 0x7f140bae.
+01-20 12:05:17.703  1423  3427 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+01-20 12:05:17.710  2477  2477 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-20 12:05:17.728  2477  2477 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-20 12:05:17.741  2477  2477 E VvmPkgInstalledRcvr: carrierVvmPkgAdded: cannot create TelephonyManager from ComponentInfo{com.android.phone/com.android.services.telephony.TelephonyConnectionService}, E, UserHandle{0}
+01-20 12:05:17.801  3829  3829 E logbuffer_pcie0: [  771] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:17.799  1423  3427 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER, user: 0
+01-20 12:05:18.410  4760  5120 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.411  4760  5468 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.412  4760  5468 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.414  4760  5120 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.415  4760  5577 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.416  4760  5577 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.489  4760  5470 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.491  4760  5470 E ejaf    : Unrecognized recognizer for [en-CA, 8046]: 41. Ignoring it and its associated features.
+01-20 12:05:18.586  1423  4247 E AppOps  : attributionTag VCN not declared in manifest of android
+01-20 12:05:18.610  4760  7212 E SpeechMicro: Hotword model is single-channel neuralnet.
+01-20 12:05:18.661  2718  4848 E UsageReportingOptionsSt: INTERNAL_ERROR: setOptInOption should not be called while user is locked. [CONTEXT service_id=41 ]
+01-20 12:05:18.661  4760  7212 E SpeechMicro: Hotword model is single-channel neuralnet.
+01-20 12:05:18.686  2718  4396 E ffaf    : Exception occurred while getting SettingsStore instance.
+01-20 12:05:18.686  2718  4396 E ffaf    : java.util.concurrent.ExecutionException: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at gsde.j(:com.google.android.gms@254730035@25.47.30 (260400-833691957):21)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at gsdn.v(:com.google.android.gms@254730035@25.47.30 (260400-833691957):31)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at gsde.get(:com.google.android.gms@254730035@25.47.30 (260400-833691957):6)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at ffaf.c(:com.google.android.gms@254730035@25.47.30 (260400-833691957):16)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at ffaf.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at fexa.g(:com.google.android.gms@254730035@25.47.30 (260400-833691957):286)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at fexa.f(:com.google.android.gms@254730035@25.47.30 (260400-833691957):135)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at coag.fB(:com.google.android.gms@254730035@25.47.30 (260400-833691957):1)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at coak.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):118)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at gjql.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at bden.c(:com.google.android.gms@254730035@25.47.30 (260400-833691957):50)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at bden.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):73)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at bdke.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):8)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:18.686  2718  4396 E ffaf    : Caused by: com.google.android.gms.auth.UserRecoverableAuthException: BadAuthentication
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.l(:com.google.android.gms@254730035@25.47.30 (260400-833691957):94)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adkc.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):122)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.m(:com.google.android.gms@254730035@25.47.30 (260400-833691957):34)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.o(:com.google.android.gms@254730035@25.47.30 (260400-833691957):64)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.h(:com.google.android.gms@254730035@25.47.30 (260400-833691957):4)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.i(:com.google.android.gms@254730035@25.47.30 (260400-833691957):8)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at adki.f(:com.google.android.gms@254730035@25.47.30 (260400-833691957):21)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at ffax.call(:com.google.android.gms@254730035@25.47.30 (260400-833691957):15)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	at java.util.concurrent.FutureTask.run(FutureTask.java:317)
+01-20 12:05:18.686  2718  4396 E ffaf    : 	... 6 more
+01-20 12:05:18.704  4760  7212 E SpeechMicro: Hotword model is single-channel neuralnet.
+01-20 12:05:18.735  4760  7212 E SpeechMicro: Hotword model is single-channel neuralnet.
+01-20 12:05:18.782  4760  7212 E SpeechMicro: Hotword model is single-channel neuralnet.
+01-20 12:05:21.499  2718  4417 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:21.499  2718  4417 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:21.499  2718  4417 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:21.505  2718  4417 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:21.505  2718  4417 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:21.505  2718  4417 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:21.505  2718  4417 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:21.505  2718  4417 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:23.023 11556 11751 E ActivityThread: Failed to find provider info for com.google.android.instantapps.supervisor.SupervisorArchiveProvider
+01-20 12:05:23.396  2915  2915 E ChimeraRcvrProxy: com.google.android.gms.backup.GmsBackupStatusChangeReceiver dropping broadcast com.google.gservices.intent.action.GSERVICES_CHANGED
+01-20 12:05:23.564  2915 11818 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:05:23.567  2915 11818 E ActivityThread: Failed to find provider info for subscribedfeeds
+01-20 12:05:23.633 10259 10259 E logbuffer_pcie0: [  774] OC Initial Status check: 0x5FC(0xf0)
+01-20 12:05:24.700  2477  2671 E SatelliteAppTracker: packageName: com.android.vending, value: null
+01-20 12:05:24.710  1423  2094 E system_server: No package ID 7f found for resource ID 0x7f0804c8.
+01-20 12:05:24.710  1423  2094 E system_server: No package ID 7f found for resource ID 0x7f140bae.
+01-20 12:05:24.712  2477  2477 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-20 12:05:24.718  1423  3427 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms.supervision, role: android.app.role.SYSTEM_SUPERVISION, user: 0
+01-20 12:05:24.727  2477  2803 E SmsApplication: com.google.android.apps.messaging lost android:read_cell_broadcasts:  (fixing)
+01-20 12:05:24.763  2718 11583 E HetSyncTaskChimeraSvc: Failed to bulk register phenotype registrants [CONTEXT service_id=51 ]
+01-20 12:05:24.773  1423  3427 E RoleControllerServiceImpl: Default/fallback role holder package doesn't qualify for the role, package: com.google.android.gms, role: android.app.role.SYSTEM_DEPENDENCY_INSTALLER, user: 0
+01-20 12:05:24.906 11412 11468 E Finsky  : [60] [Counters] attempted to use a non-positive increment for: 4752
+01-20 12:05:24.913  2490  2599 E perf_hint: createSessionUsingConfig: PerformanceHint cannot create session. Tid2604 from list [2598, 2599, 2604, 2580] doesn't belong to the calling application 10278
+01-20 12:05:24.919 11412 11468 E Finsky  : [60] [Counters] attempted to use a non-positive increment for: 4753
+01-20 12:05:25.511 11412 11880 E android.vending: No package ID 6a found for resource ID 0x6a0b0013.
+01-20 12:05:25.532  2718  4074 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:25.532  2718  4074 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:25.532  2718  4074 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:25.533  2718  4074 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:25.533  2718  4074 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:25.533  2718  4074 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:25.534  2718  4074 E gsdv    : Got more than one input Future failure. Logging failures after the first
+01-20 12:05:25.534  2718  4074 E gsdv    : java.io.IOException: Unable to create parent directories of /data/user/0/com.google.android.gms/files/mobstore_salt.pb.lock
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gnkk.b(:com.google.android.gms@254730035@25.47.30 (260400-833691957):41)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at fwmg.e(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at fwoz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):198)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at fwlm.d(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at fwqz.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gjqg.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):13)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gsfk.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gsho.a(:com.google.android.gms@254730035@25.47.30 (260400-833691957):3)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gsgp.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):19)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gshq.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):5)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at gsfm.run(:com.google.android.gms@254730035@25.47.30 (260400-833691957):20)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1154)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:652)
+01-20 12:05:25.534  2718  4074 E gsdv    : 	at java.lang.Thread.run(Thread.java:1563)
+01-20 12:05:26.321 11412 11471 E AbstractLogEventBuilder: The provided ProductIdOrigin 3 is not one of the process-level expected values: 1 or 2
